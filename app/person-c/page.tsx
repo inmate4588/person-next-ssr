@@ -30,7 +30,7 @@ const PeoplePage = () => {
     };
 
     fetchPeople();
-  }, [people]);
+  }, []);
 
   return (
     <div className="container mx-auto">
